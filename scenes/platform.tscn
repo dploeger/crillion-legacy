@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://bv2lnit8e5ybd"]
+
+[ext_resource type="Script" path="res://scenes/platform.gd" id="1_5yftw"]
+[ext_resource type="Texture2D" uid="uid://by0edsvvqjhd2" path="res://packs/kenney/element_blue_square.png" id="1_12itj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_55dou"]
+size = Vector2(32, 32)
+
+[node name="Platform" type="StaticBody2D"]
+script = ExtResource("1_5yftw")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_12itj")
+
+[node name="Shape" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_55dou")

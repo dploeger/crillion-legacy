@@ -1,0 +1,81 @@
+[gd_scene load_steps=3 format=3 uid="uid://yhjbplmkjw80"]
+
+[ext_resource type="PackedScene" uid="uid://bv2lnit8e5ybd" path="res://scenes/platform.tscn" id="1_x3sf5"]
+[ext_resource type="PackedScene" uid="uid://cdu3roknoaua1" path="res://scenes/ball.tscn" id="2_4l8p8"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Platform" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(16, 16)
+
+[node name="Platform2" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(48, 16)
+
+[node name="Platform3" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(80, 16)
+
+[node name="Platform4" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(112, 16)
+
+[node name="Platform5" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(144, 16)
+
+[node name="Platform6" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(176, 16)
+
+[node name="Platform7" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(208, 16)
+
+[node name="Platform8" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(240, 16)
+
+[node name="Platform9" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(16, 176)
+
+[node name="Platform17" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(16, 144)
+
+[node name="Platform18" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(16, 112)
+
+[node name="Platform19" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(16, 80)
+
+[node name="Platform20" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(16, 48)
+
+[node name="Platform21" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(240, 144)
+
+[node name="Platform22" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(240, 112)
+
+[node name="Platform23" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(240, 80)
+
+[node name="Platform24" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(240, 48)
+
+[node name="Platform10" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(48, 176)
+
+[node name="Platform11" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(80, 176)
+
+[node name="Platform12" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(112, 176)
+
+[node name="Platform13" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(144, 176)
+
+[node name="Platform14" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(176, 176)
+
+[node name="Platform15" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(208, 176)
+
+[node name="Platform16" parent="." instance=ExtResource("1_x3sf5")]
+position = Vector2(240, 176)
+
+[node name="Ball" parent="." instance=ExtResource("2_4l8p8")]
+position = Vector2(117, 85)
